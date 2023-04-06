@@ -11,7 +11,7 @@ COPY . app.py /app/
 RUN pip install  --upgrade pip &&\
     pip install   -r requirements.txt
 
-EXPOSE 8080
+EXPOSE 8090
 
 ENTRYPOINT [ "python" ]
 
